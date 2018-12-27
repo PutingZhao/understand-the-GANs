@@ -1,0 +1,7 @@
+1.Generative Net's input is random noise obeying some distribution and output is some type of images or somethings needed to translate such 
+such as a sentence(we can view the process of GN as the inverse process of common classifies or CNN).
+2.The noise obeying some type of distribution is mapped to some domain one by one.So the domain represent the distribution of the intended 
+things that we want to generate.
+3.The output of GN is a probability of a single image belonging to positive sample,namely, a true sample.
+4.The final outcome of GANs is a balance that no matter what type of the image,the output of DN is 0.5 which means the GN can't discriminate
+whether the image is false and the result comes from random guesses.
