@@ -5,3 +5,7 @@ things that we want to generate.
 3.The output of GN is a probability of a single image belonging to positive sample,namely, a true sample.
 4.The final outcome of GANs is a balance that no matter what type of the image,the output of DN is 0.5 which means the GN can't discriminate
 whether the image is false and the result comes from random guesses.
+5.Given the label, they predict the associated features----Naive Bayes
+  Given a hdidden representation, they predict the associated feature----GANs/VAE
+  Given some of the features, they predict the others----inpainting
+  (---------input------feature------label)
